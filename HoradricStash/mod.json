@@ -1,0 +1,7 @@
+{
+  "name": "Horadric Stash",
+  "description": "Increases size of stash to 16x16 and replaces additional stash tabs with single 'Craft' tab containing all runes, gems and materials.",
+  "author": "Grucha",
+  "website": "https://github.com/mateuszgruszczynski/HoradricStash",
+  "version": "1.0.0"
+}
