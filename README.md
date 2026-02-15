@@ -1,13 +1,6 @@
 # Horadric Stash
 
-A Diablo 2 mod that increases the size of the in-game stash.
-
-## Features
-
-- Expanded stash storage capacity
-- Shared stash functionality
-- Crafting stash tab
-- Enhanced inventory management
+This mod increases size of stash to 16x16 and replaces additional stash tabs with single "Craft" tab containing all runes, gems and materials.
 
 ## Screenshots
 
@@ -21,12 +14,7 @@ A Diablo 2 mod that increases the size of the in-game stash.
 
 ## Installation
 
-TODO: Add installation instructions
-
-## Usage
-
-TODO: Add usage instructions
-
-## License
-
-TODO: Add license information
+1. Download or clone this repository
+2. Move `HoradricStash` directory to `mods` directory in your Diablo II Resurrected instalation directory.
+3. If necessary copy old saves to `mods/HoradricStash` directory in your save file location (usually `Users/{yourUsername}/Saved Games/Diablo II Resurrected`)
+4. To run game with mod enabled open game settings in Battle.net launcher and set following additiona command line arguments: `-mod HoradricStash -txt`
