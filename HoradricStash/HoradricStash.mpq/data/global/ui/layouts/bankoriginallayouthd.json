@@ -3,27 +3,27 @@
     "fields": {
         "priority": 5,
         "rect": "$LeftPanelRect",
-        "anchor": "$LeftPanelAnchor",
+        "anchor": "$LeftPanelAnchor"
     },
     "children": [
         {
             "type": "ClickCatcherWidget", "name": "click_catcher",
             "fields": {
                 "rect": "$PanelClickCatcherRect"
-            },
+            }
         },
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
-                "filename": "PANEL\\Stash\\Classic_Stash_Panel",
-            },
+                "filename": "PANEL\\Stash\\Classic_Stash_Panel"
+            }
         },
         {
             "type": "TextBoxWidget", "name": "gold_amount",
             "fields": {
                 "rect": { "x": 487, "y": 1306, "width": 249, "height": 48 },
-                "style": "$StyleGoldAmount",
-            },
+                "style": "$StyleGoldAmount"
+            }
         },
         {
             "type": "ButtonWidget", "name": "gold_withdraw",
@@ -32,8 +32,8 @@
                 "filename": "PANEL\\GoldButton",
                 "hoveredFrame": 3,
                 "tooltipString": "@strGoldWithdraw",
-                "onClickMessage": "BankPanelMessage:Withdraw",
-            },
+                "onClickMessage": "BankPanelMessage:Withdraw"
+            }
         },
         {
             "type": "ButtonWidget", "name": "close",
@@ -43,8 +43,8 @@
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",
-                "onClickMessage": "BankPanelMessage:Close",
-            },
+                "onClickMessage": "BankPanelMessage:Close"
+            }
         },
         {
             "type": "InventoryGridWidget", "name": "grid",
@@ -52,7 +52,7 @@
                 "rect": { "x": 288, "y": 749 },
                 "cellCount": { "x": 6, "y": 4 },
                 "cellSize": "$ItemCellSize",
-                "gemSocketFilename": "PANEL\\gemsocket",
+                "gemSocketFilename": "PANEL\\gemsocket"
             },
 			"children": [
 				{
@@ -64,10 +64,10 @@
 						"fps": 30,
 						"playing": false,
 						"loop": false,
-						"frame": 30,
-					},
-				},
-			],
-        },
+						"frame": 30
+					}
+				}
+			]
+        }
     ]
 }

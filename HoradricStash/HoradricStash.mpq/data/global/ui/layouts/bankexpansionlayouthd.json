@@ -6,9 +6,9 @@
         "rect": { "x": 236, "y": -798, "width": 1718, "height": 1801, "scale": 1.00 },
         "anchor": "$LeftPanelAnchor",
         "backgroundFile": [
-            "PANEL\\Stash\\panel_bg_personal",
-            "PANEL\\Stash\\panel_bg_shared",
-            "PANEL\\Stash\\panel_bg_craft"
+            "PANEL\\Stash\\StashPanel_BG_Personal",
+            "PANEL\\Stash\\StashPanel_BG_Shared",
+            "PANEL\\Stash\\AdditionalStash\\Panel_AdditionalStash_Gems"
         ],
         "tabNotificationDurationSeconds": 0.33,
         "tabNotificationFadeOccurrences": 3
@@ -41,9 +41,9 @@
 				"rect": { "x": 70, "y": 91 },
 				"tabCount": 3,
 				"filename": "PANEL\\stash\\stash_tabs_new",
-				"inactiveFrames": [ 0, 0, 0, ],
-				"activeFrames": [ 1, 1, 1, ],
-				"disabledFrames": [-1, 0, 0, ],
+				"inactiveFrames": [ 0, 0, 0 ],
+				"activeFrames": [ 1, 1, 1 ],
+				"disabledFrames": [-1, 0, 0 ],
 				"textStrings": [ "@personal", "@shared", "Craft"],
 				"textStyle": { "pointSize": "$SmallPanelFontSize" },
 				"activeTextColor": "$TabsActiveTextColor",
@@ -52,7 +52,7 @@
 				"tabPadding": { "x": 0, "y": 0 },
 				"onSwitchTabMessage": "BankPanelMessage:SelectTab",
                 "notificationIconTemplate": {
-                    "filename": "PANEL\\Stash\\tab_notification",
+                    "filename": "PANEL\\Stash\\AdditionalStash\\StashNotification"
                 }
 			}
 		},
@@ -177,7 +177,7 @@
                                     "type": "ButtonWidget", "name": "StashRightArrow",
                                     "fields": {
                                         "rect": { "x": 327, "y": 13, "width": 64, "height": 64 },
-                                        "filename": "PANEL\\Stash\\right_arrow",
+                                        "filename": "PANEL\\Stash\\Stash_RightArrow",
                                         "normalFrame": 0,
                                         "pressedFrame": 2,
                                         "hoveredFrame": 1,
@@ -719,10 +719,6 @@
 						"itemCode": "rvl"
                     }
                 },
-                
-                
-                
-                
                 {
                     "type": "AdvancedStashSlotWidget", "name": "pk1",
                     "fields": {
